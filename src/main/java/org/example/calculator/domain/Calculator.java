@@ -1,10 +1,12 @@
-package org.example.calculator;
+package org.example.calculator.domain;
+
+import org.example.calculator.tobe.*;
 
 import java.util.List;
 
 public class Calculator {
 
-    private static final List<NewArithmeticOperator> arithmeticOperators =
+    private static final List<ArithmeticOperator> arithmeticOperators =
             List.of(
                     new AdditionOperator(),
                     new SubtractionOperator(),
